@@ -1,0 +1,11 @@
+@font-face {
+  font-family: jost;
+  src: url(assets/fonts/Jost/static/Jost-Regular.ttf) format("opentype");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Jost;
+}

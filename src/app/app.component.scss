@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+  background: rgb(45,95,102);
+  background: linear-gradient(90deg, rgba(45,95,102,1) 0%, rgba(85,154,165,1) 100%);
+  padding-left: 22px;
+  height: 108px;
+}
+
+.headerTitle{
+  font-weight: 900;
+  font-size: 48px;
+  color: white;
+}
