@@ -1,3 +1,5 @@
+@import '../styles.scss';
+
 header {
   display: flex;
   flex-direction: row;
@@ -6,12 +8,19 @@ header {
   justify-content: space-between;
   background: rgb(45,95,102);
   background: linear-gradient(90deg, rgba(45,95,102,1) 0%, rgba(85,154,165,1) 100%);
+  overflow: hidden;
   padding-left: 22px;
+  grid-gap: 24px;
   height: 108px;
 }
 
 .headerTitle{
   font-weight: 900;
   font-size: 48px;
+  min-width: 330px;
   color: white;
+}
+
+.headerFlair{
+  position: relative;
 }
