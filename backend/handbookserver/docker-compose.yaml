@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: tides-handbook-api-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: tides-handbook-api
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345678
